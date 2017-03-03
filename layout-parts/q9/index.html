@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>基本レイアウト・パーツ</title>
+    <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/css/reset.css">
+    <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <h1 class="title">基本レイアウト・パーツ</h1>
+
+    <div class="box">
+        <h2 class="headline">
+            <p class="headline__txt">Q9. グリッドレイアウト</p>
+        </h2>
+        <!--
+        最近のレイアウトの流行りで、グリッドレイアウトというものがあります。レイアウトを均等に分けて、マス目上で考えることできれいなレイアウト作りをしやすくする考え方です。
+        詳細はこちらで確認してください。 -> http://morobrand.net/mororeco/html/gridlayout/
+
+        上記URLの内容を理解した前提で進めます。
+        グリッドデザインでは、12という数字を基準としてグリッドをわけます。100%一つで表示する際はグリッドの数字は12、50%二つで表示する際はグリッドの数字は6といった具合です。
+
+        今回は可変グリッドデザインの基本レイアウトを作ってもらいます。可変なのでwidthを固定することなく%で指定しなければなりません。
+        既にHTMLに数字が記述してあるので、その数字を元に%を指定していきましょう。
+        特に新しいプロパティを使うことはないですが、うまく工夫をしないときれいなグリッドを作ることができないのでよく考えましょう。
+
+        今回は要素と要素との間の幅は一律で20pxをとっています。
+
+        今回もHTMLは記述してあるので、新たにclassを付与してスタイルをあててください。
+        -->
+        <!-- 回答はここに書いてね -->
+   <div class="q9">
+            <div class="q9__grid">
+                <div class="q9__grid__col q9__grid__col--12"><div class="q9__grid__col__cell">12</div></div>
+            </div>
+            <div class="q9__grid">
+                <div class="q9__grid__col q9__grid__col--6"><div class="q9__grid__col__cell">6</div></div>
+                <div class="q9__grid__col q9__grid__col--6"><div class="q9__grid__col__cell">6</div></div>
+            </div>
+            <div class="q9__grid">
+                <div class="q9__grid__col q9__grid__col--4"><div class="q9__grid__col__cell">4</div></div>
+                <div class="q9__grid__col q9__grid__col--4"><div class="q9__grid__col__cell">4</div></div>
+                <div class="q9__grid__col q9__grid__col--4"><div class="q9__grid__col__cell">4</div></div>
+            </div>
+            <div class="q9__grid">
+                <div class="q9__grid__col q9__grid__col--3"><div class="q9__grid__col__cell">3</div></div>
+                <div class="q9__grid__col q9__grid__col--3"><div class="q9__grid__col__cell">3</div></div>
+                <div class="q9__grid__col q9__grid__col--3"><div class="q9__grid__col__cell">3</div></div>
+                <div class="q9__grid__col q9__grid__col--3"><div class="q9__grid__col__cell">3</div></div>
+            </div>
+            <div class="q9__grid">
+                <div class="q9__grid__col q9__grid__col--2-4"><div class="q9__grid__col__cell">2.4</div></div>
+                <div class="q9__grid__col q9__grid__col--2-4"><div class="q9__grid__col__cell">2.4</div></div>
+                <div class="q9__grid__col q9__grid__col--2-4"><div class="q9__grid__col__cell">2.4</div></div>
+                <div class="q9__grid__col q9__grid__col--2-4"><div class="q9__grid__col__cell">2.4</div></div>
+                <div class="q9__grid__col q9__grid__col--2-4"><div class="q9__grid__col__cell">2.4</div></div>
+            </div>
+            <div class="q9__grid">
+                <div class="q9__grid__col q9__grid__col--2"><div class="q9__grid__col__cell">2</div></div>
+                <div class="q9__grid__col q9__grid__col--2"><div class="q9__grid__col__cell">2</div></div>
+                <div class="q9__grid__col q9__grid__col--2"><div class="q9__grid__col__cell">2</div></div>
+                <div class="q9__grid__col q9__grid__col--2"><div class="q9__grid__col__cell">2</div></div>
+                <div class="q9__grid__col q9__grid__col--2"><div class="q9__grid__col__cell">2</div></div>
+                <div class="q9__grid__col q9__grid__col--2"><div class="q9__grid__col__cell">2</div></div>
+            </div>
+            <div class="q9__grid">
+                <div class="q9__grid__col q9__grid__col--6"><div class="q9__grid__col__cell">6</div></div>
+                <div class="q9__grid__col q9__grid__col--3"><div class="q9__grid__col__cell">3</div></div>
+                <div class="q9__grid__col q9__grid__col--3"><div class="q9__grid__col__cell">3</div></div>
+            </div>
+            <div class="q9__grid">
+                <div class="q9__grid__col q9__grid__col--2"><div class="q9__grid__col__cell">2</div></div>
+                <div class="q9__grid__col q9__grid__col--2"><div class="q9__grid__col__cell">2</div></div>
+                <div class="q9__grid__col q9__grid__col--4"><div class="q9__grid__col__cell">4</div></div>
+                <div class="q9__grid__col q9__grid__col--4"><div class="q9__grid__col__cell">4</div></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

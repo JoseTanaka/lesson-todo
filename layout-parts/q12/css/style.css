@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.balloon {
+width:500px;
+background-color:#fff;
+border:5px solid #222;
+border-radius:30px;
+position:relative;
+padding:20px;
+}
+ 
+.balloon:before {
+border:20px solid transparent;
+border-top-color:#fff;
+border-bottom-width:0;
+bottom:-14px;
+content:"";
+display:block;
+left:30px;
+position:absolute;
+width:0;
+z-index:1;
+}
+ 
+.balloon:after {
+border:20px solid transparent;
+border-top-color:#000;
+border-bottom-width:0;
+bottom:-20px;
+content:"";
+display:block;
+left:30px;
+position:absolute;
+width:0;
+}
+
+/* 回答はここに書いてね */
+
+/* 回答はここに書いてね */
+

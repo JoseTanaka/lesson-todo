@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/* 回答はここに書いてね */
+
+/* 回答はここに書いてね */
+
+.q8 {
+	display: table;
+}
+
+.pink, .purple, .skyblue {
+	display: table-cell;
+	font-weight: bold;
+}
+
+.pink {
+	width: 100px;
+	background: #fdc8b8;
+	padding: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.purple {
+	width: 500px;
+	background: #e0abd9;
+	padding: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.skyblue{
+	width: 100px;
+	background: #fdc8b8;
+	padding: 20px;
+	text-align: center;
+	vertical-align: middle;
+	background: #b6d8ed;
+}
+
+.yellow, .light-yellow, .green{
+	display: table-cell;
+	font-weight: bold;
+}
+
+.yellow{
+	width: 100px;
+	background: #fdc8b8;
+	padding: 20px;
+	text-align: center;
+	vertical-align: middle;
+	background: #e5d32e;
+}
+
+.light-yellow{
+	width: 100px;
+	background: #fdc8b8;
+	padding: 20px;
+	text-align: center;
+	vertical-align: middle;
+	background: #e4e67c;
+}
+
+.green{
+	width: 500px;
+	background: #e0abd9;
+	padding: 20px;
+	text-align: center;
+	vertical-align: middle;
+	background: #8fdcad;
+}

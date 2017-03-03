@@ -1,0 +1,38 @@
+.cf::before,
+.cf::after {
+	content: "";
+	display: block;
+	clear: both;	
+}
+
+.wrapper {
+	margin: 0 auto; 
+	width: 400px;
+}
+
+
+.top-box {
+	background-color: #141f40;
+	height: 100px;	
+}
+
+.middle-left-box {
+	background-color: #80bfa8;
+	width: 150px;
+	height: 250px;
+	float: left;
+}
+
+.middle-right-box {
+	background-color: #8c2727;
+	width: 250px;
+	height: 250px;
+	float: right;
+}
+
+
+.bottom-box {
+	background-color: #d98d30;
+	height: 100px;
+}
+

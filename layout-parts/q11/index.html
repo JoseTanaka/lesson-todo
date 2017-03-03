@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>基本レイアウト・パーツ</title>
+    <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/css/reset.css">
+    <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <h1 class="title">基本レイアウト・パーツ</h1>
+
+    <div class="box">
+        <h2 class="headline">
+            <p class="headline__txt">Q11. アニメーション</p>
+        </h2>
+        <!--
+        アニメーションはユーザーにとってわかりやすいサイトを作るためによく使われるのでこの問題で覚えましょう。
+        アニメーションの書き方はtransitionとanimationの2つがあるので、どちらのパターンでも対応できるようになりましょう。
+        2つのアニメーションの違いとしては、transitionは書き方は簡単だが細かいアニメーションに向いていない、animationは記述は難しいが複雑なアニメーションを書くことができる、といった感じです。
+        -->
+        <p class="title--sub">ー transition ー</p>
+        <!--
+        画像をホバーしたとき、要素のサイズやポジションを変えて、その際transitionでアニメーションをかけてください。
+        実装の順序として、まずはアニメーション無しでホバーしたときの変化を実装して、それができたあとにアニメーションの記述を追加すると良いかと思います。
+
+        使う画像のパス： "http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/img/q11/thumb.jpg"
+
+        ■この問題で使う大事なプロパティ
+        ・transition
+        ・position
+        ・transform
+
+        ■この問題で使う大事な擬似クラス
+        ・:hover
+        -->
+        <!-- 回答はここに書いてね -->
+
+        <!-- 回答はここに書いてね -->
+
+        <p class="title--sub mt10">ー animation ー</p>
+        <!--
+        今回はホバーとは関係なく常に動いているアニメーションです。よくローディングで使われるアイコンをCSSだけで実装します。
+        まずは上部分だけが水色の円をつくってみてください。その後、アニメーションを使って円の角度を変更する処理を書きます。
+
+        ■この問題で使う大事なプロパティ
+        ・animation
+        ・border-radius
+        ・transform
+        -->
+        <!-- 回答はここに書いてね -->
+
+        <p class="title--sub">ー transition ー</p>
+        <div class="q11__trans">
+            <img class="q11__trans__thumb" src="../assets/img/q11/thumb.jpg" width="500" height="333" alt="">
+            <div class="q11__trans__desc">
+                <p class="q11__trans__desc__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+
+        <p class="title--sub mt10">ー animation ー</p>
+        <div class="q11__anima"></div>
+    </div>
+</div>
+
+
+
+</div>
+
+</body>
+</html>

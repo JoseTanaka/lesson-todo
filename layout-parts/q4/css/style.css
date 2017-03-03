@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+/* 回答はここに書いてね */
+
+/* 回答はここに書いてね */
+
+.container {
+	width: 500px;
+	background: #ECF1F2;
+	margin: 0 60px;
+	position: relative;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px; 
+	height:500px;
+}
+
+
+.one {
+	background: #ffefd3;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 40px;
+	left: 200px;
+}
+
+.two {
+	background: #7084de;
+	width: 100px;
+	height:100px;
+	top: 120px;
+	left: 280px;
+	position: absolute;
+}
+
+
+.three {
+	background: #d0ecea;
+	width: 100px;
+	height: 100px;
+	top: 200px;
+	left: 360px;
+	position: absolute;
+}
+
+
+.four {
+	background: #8b7a5e;
+	width: 100px;
+	height: 100px;
+	left: 280px;
+	top: 280px;
+	position: absolute;
+	z-index: 60;
+}
+
+.five {
+	background: #9fd6d2;
+	width: 100px;
+	height: 100px;
+	top: 360px;
+	left: 200px; 
+	position: absolute;
+	z-index: 70;
+}
+
+.six {
+	background: #fffee4;
+	width: 100px;
+	height:100px;
+	top: 280px;
+	left: 120px;
+	position: absolute;
+	z-index: 80;
+}
+
+.seven {
+	background: #deae70;
+	width: 100px;
+	height: 100px;
+	left: 40px;
+	top: 200px;
+	position: absolute;
+	z-index: 90;
+}
+
+.eight {
+	background: #de70cf;
+	width: 100px;
+	height: 100px;
+	top: 120px;
+	left: 120px;
+	position: absolute;
+	z-index: 100;
+}
+
+.eight::before{
+		content:"";
+		background: #ffefd3;
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		right: 0;
+}
+
+/*８の中に１の色をした正方形を作って、８の色の上に重ねる */
+.nine {
+	background: #2B69a3;
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	position: fixed;
+}
+
+
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>基本レイアウト・パーツ</title>
+    <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/css/reset.css">
+    <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <h1 class="title">基本レイアウト・パーツ</h1>
+
+    <div class="box">
+        <h2 class="headline">
+            <p class="headline__txt">Q10. フォーム</p>
+        </h2>
+
+        <!--
+        Webサイトを作る際、コンタクトフォームを実装する機会がとても多くあります。
+        Q7で出てきた、inputやtextarea要素を使えばフォームをつくることができます。
+        この課題では、実際にユーザーが入力した値を送れる状態まで作っていただきます。answerの方で確認していただきたいのですが、全ての入力フォームを適当に記述してsubmitボタンを押してみてください。URL欄の最後に「?q10_1=...」という感じの文字列が追加されているのがわかると思います。
+        これが、入力した値を送信できている状態です。本来ではこの値をサーバーサイドで受け取ってフォームの処理をするのですが、今回はHTMLを使って送信するまでをやってもらいます。
+        answerで入力した値を自分で作ったフォームに全く同じように入力した場合、URLが全く同じように変わる状態にしてください。
+        また赤の*(アスタリスク)の部分は必須項目です。必須項目を空にしたまま送信しようとするとアラートが表示される処理も再現しましょう。
+
+        また、この問題はレイアウトが複雑なため、サイズや色の確認のためにデベロッパーツールを見ても構いません。
+        ただ全ての答えを見るといったことはしないようにしましょう。
+
+        ■この問題で使う大事なhtml要素
+        ・form
+        ・input(type="submit")
+        -->
+        <!-- 回答はここに書いてね -->
+
+        <!-- 回答はここに書いてね -->
+    </div>
+</div>
+
+<form class="q10">
+            <div class="q10__title">
+                <p class="q10__title__txt">Form Exercise</p>
+            </div>
+
+            <div class="clearfix">
+                <div class="q10__main">
+                    <ul class="q10__main__items">
+                        <li class="clearfix">
+                            <p class="q10__main__items__title">name <span class="is-required">*</span></p>
+                            <div class="q10__main__items__content">
+                                <input class="q10__input q10__input--init" type="text" name="q10_1" required>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <p class="q10__main__items__title">Sex</p>
+                            <div class="q10__main__items__content">
+                                <label class="q10__radio">
+                                    <input class="q10__radio__btn" type="radio" name="q10_2" value="male">
+                                    <span class="q10__radio__txt">male</span>
+                                </label>
+                                <label class="q10__radio">
+                                    <input class="q10__radio__btn" type="radio" name="q10_2" value="female">
+                                    <span class="q10__radio__txt">female</span>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <p class="q10__main__items__title">Email <span class="is-required">*</span></p>
+                            <div class="q10__main__items__content">
+                                <input class="q10__input q10__input--init" type="text" placeholder="ex) hoge@gmail.com" name="q10_3" required>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <p class="q10__main__items__title">Telephone</p>
+                            <div class="q10__main__items__content">
+                                <input class="q10__input q10__input--init" type="text" name="q10_4" placeholder="ex) 08012345678">
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="q10__main__bottom">
+                        <input class="q10__main__bottom__btn q10__input--init" type="submit" value="submit">
+                    </div>
+                </div>
+
+                <div class="q10__side">
+                    <textarea class="q10__side__txt q10__input--init" name="q10_5" placeholder="Please fill in the message..."></textarea>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

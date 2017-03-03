@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/* 回答はここに書いてね */
+
+/* 回答はここに書いてね */
+
+/*SMALL*/
+
+.q6 {
+	vertical-align: middle;
+}
+
+.common, .error, .disabled, .shadow {
+	background-color: #00bcd4;
+    border: none;
+    color: white;
+    padding: 0 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-left: 10px;
+    height: 26px;
+    display: inline-block;
+}
+
+.error {
+	background-color: #ff4081;    
+}
+
+.disabled {
+	background-color: #e5e5e5;
+}
+
+.shadow {
+	background-color: #fff;
+    color: black;
+    box-shadow: 0 1px 4px rgba(0,0,0,.12);   			
+}
+
+/*MIDDLE*/
+
+.common2, .error2, .disabled2, .shadow2  {
+	background-color: #00bcd4;
+    border: none;
+    color: white;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    height: 32px;
+}
+
+.error2 {
+	background-color: #ff4081;
+}
+
+.disabled2 {
+	background-color: #e5e5e5;
+}
+
+.shadow2 {
+	background-color: #fff;
+    color:black;
+    box-shadow: 0 1px 4px rgba(0,0,0,.12);
+}
+
+/*Large*/
+
+.common3, .error3, .disabled3, .shadow3  {
+	background-color: #00bcd4;
+    border: none;
+    color: white;
+    padding: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 7px;
+    margin-left: 10px;
+    height: 38px;
+}
+
+.error3 {
+	background-color: #ff4081;
+}
+
+.disabled3 {
+	background-color: #e5e5e5;
+}
+
+ .shadow3 {
+ 	background-color: #fff;
+ 	color: black;
+    box-shadow: 0 1px 4px rgba(0,0,0,.12);
+}
+
+
+
+
+

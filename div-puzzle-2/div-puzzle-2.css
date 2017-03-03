@@ -1,0 +1,67 @@
+.cf::after,
+.cf::before {
+	content: "";
+	clear: both;
+	display: block;	
+}
+
+.wrapper {
+	margin: 0 auto; 
+	width: 400px;
+}
+
+
+.top-box {
+	background-color: #141f40;
+	height: 100px;
+}
+
+.left-box {
+	background-color: #80bfa8;
+	float: left;
+	height: 250px;
+	width: 150px;
+}
+
+.three-box-wrapper {
+	float: left;
+}
+
+.three-box-left-side-wrapper {
+	float: left;
+	width: 150px;
+}
+
+.three-box-top {
+	background-color: #dbd400;
+	height: 50px;
+	width: 150px;
+}
+
+.three-box-bottom {
+	background-color: #0093b7;
+	height: 100px;
+	width: 150px;	
+}
+
+/*why erase width of above two child element and does not inherit parents*/
+
+.three-box-right {
+	background-color: #ff9e6b;
+	float: right;
+	height: 150px;
+	width: 100px;	
+}
+
+.right-box-bottom {
+	background-color: #8c2727;
+	float: left;
+	height: 100px;
+	width: 250px;
+}
+
+
+.bottom-box {
+	background-color: #d98d30;
+	height: 100px;
+}

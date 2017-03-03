@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* 回答はここに書いてね */
+
+/* 回答はここに書いてね */
+
+table {
+	border-collapse: collapse;
+	border: solid #decede 1px;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: bold;	
+}
+
+thead {
+	background: #2244aa;
+	color: #fff;
+	padding: 10px;
+}
+
+th,
+td {
+	border: solid #decede 1px;
+	text-align: center;
+	padding: 10px 50px;
+}
+
+tbody tr:nth-child(even) {
+	background: #ecf1f2;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+td:first-child {
+	background: #2244aa;
+	color: #fff;
+}
+
+tfoot tr {
+	border-top:dashed #000 2px;
+	border-spacing: 0;
+	border-bottom: solid #decede 1px;
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScriptの練習</title>
+</head>
+<body>
+<script>
+// ここにJavaScriptを書いていきます
+
+var string = "sup dawg";
+console.log(string);
+
+var num1 = 6;
+var num2 = 24;
+console.log(num1 + num2)
+console.log(num1 - num2)
+console.log(num1 * num2)
+console.log(num1 / num2)
+
+
+var str1 = "6";
+var str2 = "24";
+console.log(str1 + str2);
+
+var str1 ="Can I get a ";
+var str2 = "Hello there";
+console.log(str1 + str2);
+
+var str1 = ("my")
+str1 += ("life")
+console.log(str1)
+
+var nameList = ["komatsu", "yoshino", "tsuji"];
+console.log(nameList[0]);
+console.log(nameList[1]);
+console.log(nameList[2]);
+
+var myFam = {
+	name: 'm-town',
+	age: 27,
+	mantra: 'party hard'
+};
+
+console.log(myFam.mantra);
+
+function add(x,y) {
+	return x + y;
+}
+
+console.log(add('Morice ', 'Versace'));
+
+var myFamList = [
+	{
+	name: 'M-Town',
+	age: 27,
+	hobby: [
+		'drinking and doing crazy shiiit',
+		'creating rituals and bailing out'
+	  ]
+	},
+
+	{
+	name: 'Jerome VII',
+	age: 50,
+	hobby: [
+		'treasure huntin aka trash pickin',
+		'instagrammin weird bug pics'
+	  ]
+	},
+
+	{
+	name: 'he who must not be named',
+	age: 72,
+	hobby: [
+		'basketball',
+		'smoking weeeeeed'
+	  ]
+	}
+];
+
+console.log(myFamList.name);
+
+var userList = [
+  {
+    name: 'arata',
+    age: 26,
+    favorites: [
+      'Card Game',
+      'Basket Ball',
+      'Programming'
+    ]
+  },
+
+  {
+    name: 'watanabe',
+    age: 83,
+    favorites: [
+      'Tinder',
+      'The Legend of Zelda'
+    ]
+  },
+
+  {
+    name: 'totani',
+    age: 23,
+    favorites: [
+      'Football',
+      'Smash Bros.'
+    ]
+  }
+];
+
+console.log(userList[1].favorites[1]);
+
+var user = {
+  name: 'arata',
+  say: function() {
+    console.log('Hello! My name is ' + this.name + '!');
+  }
+};
+user.say(); // Hello! My name is arata!
+
+var user = {
+	name: 'david',
+	rants: function() {
+		console.log('My real name is ' + this.name + '.....nooooot!!! lololololol');
+	}
+};
+
+user.rants();
+
+
+var calc = {
+	add:function(x, y) {
+		return x + y;
+	},
+	subtract:function(x, y) {
+		return x - y;
+	},
+	multiply:function (x, y) {
+		return x * y;
+	},
+	divide:function(x, y) {
+		return x / y;
+	}
+};
+
+console.log(calc.add(10,10));
+console.log(calc.subtract(10,10));
+console.log(calc.multiply(10,10));
+console.log(calc.divide(10,10));
+
+/*
+
+function delay(callback) {
+	console.log('delaying...');
+	setTimeout(function() {
+	  callback();
+	}, 2000);
+}
+delay(function() {
+  console.log('finish!!');
+});
+
+var age = 72;
+if (age >= 72) {
+	console.log('I am James');
+} else {
+  console.log('I am not James')
+}
+
+*/
+
+var age = 88;
+if (age === 100) {
+	console.log('紀寿');
+} else if (age === 88) {
+  console.log('米寿');
+} else if (age === 60) {
+  console.log('還暦');
+} else if (age === 30) {
+  console.log('三十路');	
+} else if (age < 20) {
+  console.log('未成年')
+}
+
+var flag = false;
+var str = (flag)? '真実です': '虚偽です';
+console.log(str);
+
+var flag = false;
+var str = (flag)? '真': '嘘';
+console.log(str);
+
+for (var i = 0; i < 11; i++) {
+  console.log(i + '回目のレビュー');
+}
+
+var nameList = ['komatsu', 'tsuji', 'kato', 'yoshino'];
+console.log(nameList.length);
+
+for (var i = 0; i < nameList.length; i++) {
+	console.log(nameList[i]);
+}
+
+
+
+
+var sequence = [];
+
+for (var i = 1; i < 5; i++) {
+	sequence.push(Math.pow(10, i));
+}
+
+sequence.unshift(1);
+
+console.log(sequence);
+
+
+
+var proverbArray = ['犬も', '歩けば', '棒に', '当たる'];
+var proverb = '';
+
+for (var i = 0; proverbArray.length > i; i++) {
+	proverb += proverbArray[i];
+}
+console.log(proverb);
+
+
+
+
+
+
+/*
+setInterval(function() {
+	var date = new Date();
+	console.log(date.toLocaleTimeString())
+}, 1000); 
+*/
+
+
+var href = location.href;
+console.log(href);
+
+var userAgent = navigator.userAgent;
+console.log(userAgent);
+
+</script>
+</body>
+</html>

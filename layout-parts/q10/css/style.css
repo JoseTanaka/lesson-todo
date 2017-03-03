@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+.q10 {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ECF1F2;
+}
+.q10__title {
+    position: relative;
+    margin-bottom: 20px;
+}
+.q10__title:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    content: "";
+}
+.q10__title__txt {
+    position: relative;
+    display: inline-block;
+    padding-right: 10px;
+    background-color: #ECF1F2;
+    font-size: 24px;
+    font-weight: bold;
+}
+.q10__main {
+    float: left;
+    width: 300px;
+}
+.q10__main__items { margin-bottom: 20px; }
+.q10__main__items > li:not(:first-child) { margin-top: 20px; }
+.q10__main__items__title {
+    float: left;
+    width: 100px;
+    line-height: 25px;
+    text-align: right;
+}
+.q10__main__items__title .is-required { color: #F00; }
+.q10__main__items__content {
+    float: right;
+    width: 180px;
+}
+.q10__input--init {
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.q10__input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #FFF;
+    font-size: 12px;
+    line-height: 12px;
+    box-sizing: border-box;
+}
+.q10__radio { cursor: pointer; }
+.q10__radio__btn { display: none; }
+.q10__radio__txt {
+    position: relative;
+    display: inline-block;
+    padding: 3px 3px 3px 20px;
+}
+.q10__radio__txt:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    margin-top: -8px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    content: '';
+}
+.q10__radio__btn:checked + .q10__radio__txt:after {
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    margin-top: -4px;
+    background-color: #00BCD4;
+    border-radius: 50%;
+    content: '';
+}
+.q10__main__bottom { text-align: right; }
+.q10__main__bottom__btn {
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: #00BCD4;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 26px;
+}
+.q10__side {
+    float: right;
+    width: 380px;
+}
+.q10__side__txt {
+    width: 100%;
+    height: 203px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #FFF;
+    font-size: 12px;
+    box-sizing: border-box;
+    resize: none;
+}
